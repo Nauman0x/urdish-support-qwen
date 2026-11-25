@@ -10,3 +10,4 @@ runs/
 *.bin
 data/review.csv
 __pycache__/
+unsloth_compiled_cache/
