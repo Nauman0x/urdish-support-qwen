@@ -11,3 +11,6 @@ runs/
 data/review.csv
 __pycache__/
 unsloth_compiled_cache/
+.env
+.env.*
+!.env.example
