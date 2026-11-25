@@ -1,0 +1,40 @@
+{
+ "method": "blind: 2 Claude graders, 30 chats each, replies shuffled per chat, labels ok/wrong/empty vs the policy card",
+ "results": {
+  "urdish-1.7b-q4_k_m": {
+   "ok": 39,
+   "wrong": 20,
+   "empty": 1,
+   "ok_pct": 65.0
+  },
+  "base-1.7b-q4_k_m": {
+   "ok": 27,
+   "wrong": 26,
+   "empty": 7,
+   "ok_pct": 45.0
+  },
+  "urdish-4b-q4_k_m": {
+   "ok": 49,
+   "wrong": 9,
+   "empty": 2,
+   "ok_pct": 81.7
+  },
+  "urdish-v2-4b-q4_k_m": {
+   "ok": 49,
+   "empty": 2,
+   "wrong": 9,
+   "ok_pct": 81.7
+  },
+  "urdish-v2-1.7b-q4_k_m": {
+   "wrong": 28,
+   "ok": 32,
+   "ok_pct": 53.3
+  },
+  "base-4b-q4_k_m": {
+   "wrong": 15,
+   "ok": 31,
+   "empty": 14,
+   "ok_pct": 51.7
+  }
+ }
+}

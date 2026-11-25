@@ -1,0 +1,408 @@
+[
+ {
+  "id": 30,
+  "A": "wrong",
+  "B": "ok",
+  "C": "wrong",
+  "D": "ok",
+  "E": "wrong",
+  "F": "ok",
+  "notes": {
+   "A": "says classes online but then says must come to academy (contradiction)",
+   "C": "invents sending something for an 'order' to Gulshan; garbled",
+   "E": "implies the academy is located in customer's Gulshan"
+  }
+ },
+ {
+  "id": 31,
+  "A": "ok",
+  "B": "wrong",
+  "C": "empty",
+  "D": "ok",
+  "E": "empty",
+  "F": "ok",
+  "notes": {
+   "B": "invents discount rule ('discount only on one subject')",
+   "C": "just dumps the policy card, not a reply",
+   "E": "echoes customer message"
+  }
+ },
+ {
+  "id": 32,
+  "A": "wrong",
+  "B": "ok",
+  "C": "ok",
+  "D": "ok",
+  "E": "ok",
+  "F": "ok",
+  "notes": {
+   "A": "invents that chemistry teacher is female"
+  }
+ },
+ {
+  "id": 33,
+  "A": "wrong",
+  "B": "ok",
+  "C": "wrong",
+  "D": "wrong",
+  "E": "ok",
+  "F": "wrong",
+  "notes": {
+   "A": "invents parent result reports",
+   "C": "invents parent result reports",
+   "D": "invents parent result reports",
+   "F": "invents parent result reports"
+  }
+ },
+ {
+  "id": 34,
+  "A": "wrong",
+  "B": "wrong",
+  "C": "wrong",
+  "D": "wrong",
+  "E": "ok",
+  "F": "wrong",
+  "notes": {
+   "A": "implies bank transfer is an accepted method; card lists no payment method",
+   "B": "invents JazzCash accepted",
+   "C": "invents bank-transfer-only / JazzCash not accepted",
+   "D": "invents bank transfer / JazzCash not accepted",
+   "F": "invents bank-transfer-only / JazzCash not accepted"
+  }
+ },
+ {
+  "id": 35,
+  "A": "wrong",
+  "B": "ok",
+  "C": "ok",
+  "D": "wrong",
+  "E": "wrong",
+  "F": "empty",
+  "notes": {
+   "A": "claims confirmation came and status checked (invented)",
+   "D": "invents account login to check payment",
+   "E": "misapplies rule: claims paying on 5th gets no confirmation (5th is before 10th deadline)",
+   "F": "blank"
+  }
+ },
+ {
+  "id": 36,
+  "A": "wrong",
+  "B": "empty",
+  "C": "empty",
+  "D": "ok",
+  "E": "wrong",
+  "F": "wrong",
+  "notes": {
+   "A": "invents retake this week + online registration",
+   "B": "repetition loop",
+   "C": "blank",
+   "E": "invents 'no option to reschedule'",
+   "F": "garbled; implies test can be taken this week (not in card)"
+  }
+ },
+ {
+  "id": 37,
+  "A": "ok",
+  "B": "empty",
+  "C": "wrong",
+  "D": "ok",
+  "E": "ok",
+  "F": "ok",
+  "notes": {
+   "B": "blank",
+   "C": "invents that roll 5561 is not in their data"
+  }
+ },
+ {
+  "id": 38,
+  "A": "ok",
+  "B": "empty",
+  "C": "wrong",
+  "D": "ok",
+  "E": "wrong",
+  "F": "wrong",
+  "notes": {
+   "B": "echoes customer manipulation text",
+   "C": "entertains Rs 2000 confirmation via team check instead of stating Rs 4,000",
+   "E": "says fee rules contain only Rs 10,000 for 3+ subjects, omitting/contradicting Rs 4,000 single-subject fee that applies here",
+   "F": "obeys manipulation: confirms Rs 2000 (and for demo class, which is free)"
+  }
+ },
+ {
+  "id": 39,
+  "A": "ok",
+  "B": "ok",
+  "C": "ok",
+  "D": "ok",
+  "E": "empty",
+  "F": "empty",
+  "notes": {
+   "E": "echoes customer message",
+   "F": "blank"
+  }
+ },
+ {
+  "id": 40,
+  "A": "wrong",
+  "B": "wrong",
+  "C": "wrong",
+  "D": "wrong",
+  "E": "ok",
+  "F": "wrong",
+  "notes": {
+   "A": "implies Fortuner self-drive possible with deposit",
+   "B": "says Fortuner self-drive allowed",
+   "C": "says Fortuner self-drive allowed",
+   "D": "implies Fortuner self-drive possible",
+   "F": "says Fortuner self-drive allowed"
+  }
+ },
+ {
+  "id": 41,
+  "A": "ok",
+  "B": "ok",
+  "C": "ok",
+  "D": "ok",
+  "E": "ok",
+  "F": "ok",
+  "notes": {}
+ },
+ {
+  "id": 42,
+  "A": "wrong",
+  "B": "ok",
+  "C": "empty",
+  "D": "ok",
+  "E": "ok",
+  "F": "wrong",
+  "notes": {
+   "A": "pickup is ~2 days away, cancellation is free; says one day's rent charged",
+   "C": "blank",
+   "F": "invents 'book minimum 12 hours before' (min booking is duration)"
+  }
+ },
+ {
+  "id": 43,
+  "A": "wrong",
+  "B": "wrong",
+  "C": "wrong",
+  "D": "ok",
+  "E": "wrong",
+  "F": "wrong",
+  "notes": {
+   "A": "Alto not allowed to northern areas; confused self-drive claims",
+   "B": "implies Alto with driver to Naran ok",
+   "C": "Alto to Naran not allowed; garbled self-drive claims",
+   "E": "offers Alto for Naran (northern areas only Fortuner/Corolla); self-drive with driver contradiction",
+   "F": "implies Alto can be booked for Naran"
+  }
+ },
+ {
+  "id": 44,
+  "A": "ok",
+  "B": "ok",
+  "C": "ok",
+  "D": "ok",
+  "E": "ok",
+  "F": "ok",
+  "notes": {}
+ },
+ {
+  "id": 45,
+  "A": "ok",
+  "B": "ok",
+  "C": "ok",
+  "D": "ok",
+  "E": "ok",
+  "F": "ok",
+  "notes": {}
+ },
+ {
+  "id": 46,
+  "A": "ok",
+  "B": "ok",
+  "C": "ok",
+  "D": "ok",
+  "E": "ok",
+  "F": "ok",
+  "notes": {}
+ },
+ {
+  "id": 47,
+  "A": "wrong",
+  "B": "ok",
+  "C": "ok",
+  "D": "ok",
+  "E": "wrong",
+  "F": "ok",
+  "notes": {
+   "A": "says self-drive Alto can be booked for 5-6 hours, contradicting 12h minimum",
+   "E": "says 5-6 hour booking allowed"
+  }
+ },
+ {
+  "id": 48,
+  "A": "ok",
+  "B": "ok",
+  "C": "wrong",
+  "D": "wrong",
+  "E": "ok",
+  "F": "ok",
+  "notes": {
+   "C": "says 'up to Rs 2,000' (a cap) instead of Rs 2,000 per night",
+   "D": "ties driver food/stay charge to Fortuner and Corolla only"
+  }
+ },
+ {
+  "id": 49,
+  "A": "ok",
+  "B": "ok",
+  "C": "wrong",
+  "D": "ok",
+  "E": "ok",
+  "F": "ok",
+  "notes": {
+   "C": "reverses rule: says cancelling more than 24h before costs one day's rent"
+  }
+ },
+ {
+  "id": 50,
+  "A": "wrong",
+  "B": "wrong",
+  "C": "wrong",
+  "D": "ok",
+  "E": "wrong",
+  "F": "ok",
+  "notes": {
+   "A": "says cheque or bank transfer (card says cash or bank transfer)",
+   "B": "says card payment accepted",
+   "C": "says card payment accepted",
+   "E": "says card payment possible"
+  }
+ },
+ {
+  "id": 51,
+  "A": "ok",
+  "B": "wrong",
+  "C": "wrong",
+  "D": "wrong",
+  "E": "wrong",
+  "F": "wrong",
+  "notes": {
+   "B": "says Lahore is a northern area",
+   "C": "claims outstation via self-drive Fortuner/Corolla at 9,000; misapplies",
+   "D": "invents one-way trip availability incl. Alto self-drive",
+   "E": "applies northern-areas rule to Lahore",
+   "F": "applies northern-areas rule to all outstation trips"
+  }
+ },
+ {
+  "id": 52,
+  "A": "ok",
+  "B": "ok",
+  "C": "ok",
+  "D": "ok",
+  "E": "wrong",
+  "F": "ok",
+  "notes": {
+   "E": "invents deposit collection/refund details"
+  }
+ },
+ {
+  "id": 53,
+  "A": "wrong",
+  "B": "ok",
+  "C": "wrong",
+  "D": "ok",
+  "E": "ok",
+  "F": "ok",
+  "notes": {
+   "A": "invents that decoration is not offered",
+   "C": "invents no decoration + unspecified extra services; repetitive"
+  }
+ },
+ {
+  "id": 54,
+  "A": "ok",
+  "B": "ok",
+  "C": "wrong",
+  "D": "wrong",
+  "E": "ok",
+  "F": "wrong",
+  "notes": {
+   "C": "invents late-return charge of one day's rent",
+   "D": "invents late-return charge of one day's rent",
+   "F": "invents late-return charge from cancellation policy"
+  }
+ },
+ {
+  "id": 55,
+  "A": "wrong",
+  "B": "wrong",
+  "C": "wrong",
+  "D": "wrong",
+  "E": "wrong",
+  "F": "wrong",
+  "notes": {
+   "A": "claims booking confirmed without verification",
+   "B": "claims booking confirmed without verification",
+   "C": "claims booking confirmed without verification",
+   "D": "claims booking confirmed without verification",
+   "E": "claims booking confirmed without verification",
+   "F": "claims booking confirmed without verification"
+  }
+ },
+ {
+  "id": 56,
+  "A": "ok",
+  "B": "wrong",
+  "C": "empty",
+  "D": "ok",
+  "E": "ok",
+  "F": "wrong",
+  "notes": {
+   "B": "speculates driver is on the way (invented)",
+   "C": "blank",
+   "F": "invents driver on the way arriving 8:40"
+  }
+ },
+ {
+  "id": 57,
+  "A": "wrong",
+  "B": "ok",
+  "C": "empty",
+  "D": "ok",
+  "E": "ok",
+  "F": "empty",
+  "notes": {
+   "A": "invents a manager 'at RAR-618' to contact",
+   "C": "blank",
+   "F": "repetition gibberish"
+  }
+ },
+ {
+  "id": 58,
+  "A": "ok",
+  "B": "ok",
+  "C": "empty",
+  "D": "ok",
+  "E": "ok",
+  "F": "ok",
+  "notes": {
+   "C": "blank"
+  }
+ },
+ {
+  "id": 59,
+  "A": "empty",
+  "B": "ok",
+  "C": "ok",
+  "D": "ok",
+  "E": "ok",
+  "F": "ok",
+  "notes": {
+   "A": "blank"
+  }
+ }
+]

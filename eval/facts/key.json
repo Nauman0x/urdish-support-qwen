@@ -1,0 +1,542 @@
+[
+ {
+  "id": 0,
+  "A": "urdish-1.7b-q4_k_m",
+  "B": "base-1.7b-q4_k_m",
+  "C": "urdish-4b-q4_k_m",
+  "D": "urdish-v2-4b-q4_k_m",
+  "E": "urdish-v2-1.7b-q4_k_m",
+  "F": "base-4b-q4_k_m"
+ },
+ {
+  "id": 1,
+  "A": "base-4b-q4_k_m",
+  "B": "urdish-v2-4b-q4_k_m",
+  "C": "urdish-v2-1.7b-q4_k_m",
+  "D": "urdish-4b-q4_k_m",
+  "E": "urdish-1.7b-q4_k_m",
+  "F": "base-1.7b-q4_k_m"
+ },
+ {
+  "id": 2,
+  "A": "base-4b-q4_k_m",
+  "B": "urdish-4b-q4_k_m",
+  "C": "urdish-v2-4b-q4_k_m",
+  "D": "base-1.7b-q4_k_m",
+  "E": "urdish-v2-1.7b-q4_k_m",
+  "F": "urdish-1.7b-q4_k_m"
+ },
+ {
+  "id": 3,
+  "A": "base-4b-q4_k_m",
+  "B": "urdish-4b-q4_k_m",
+  "C": "urdish-1.7b-q4_k_m",
+  "D": "urdish-v2-1.7b-q4_k_m",
+  "E": "base-1.7b-q4_k_m",
+  "F": "urdish-v2-4b-q4_k_m"
+ },
+ {
+  "id": 4,
+  "A": "urdish-v2-1.7b-q4_k_m",
+  "B": "base-4b-q4_k_m",
+  "C": "urdish-v2-4b-q4_k_m",
+  "D": "urdish-4b-q4_k_m",
+  "E": "urdish-1.7b-q4_k_m",
+  "F": "base-1.7b-q4_k_m"
+ },
+ {
+  "id": 5,
+  "A": "urdish-v2-1.7b-q4_k_m",
+  "B": "base-4b-q4_k_m",
+  "C": "base-1.7b-q4_k_m",
+  "D": "urdish-v2-4b-q4_k_m",
+  "E": "urdish-4b-q4_k_m",
+  "F": "urdish-1.7b-q4_k_m"
+ },
+ {
+  "id": 6,
+  "A": "urdish-4b-q4_k_m",
+  "B": "base-4b-q4_k_m",
+  "C": "urdish-v2-4b-q4_k_m",
+  "D": "urdish-v2-1.7b-q4_k_m",
+  "E": "urdish-1.7b-q4_k_m",
+  "F": "base-1.7b-q4_k_m"
+ },
+ {
+  "id": 7,
+  "A": "urdish-v2-4b-q4_k_m",
+  "B": "urdish-4b-q4_k_m",
+  "C": "base-4b-q4_k_m",
+  "D": "base-1.7b-q4_k_m",
+  "E": "urdish-1.7b-q4_k_m",
+  "F": "urdish-v2-1.7b-q4_k_m"
+ },
+ {
+  "id": 8,
+  "A": "urdish-4b-q4_k_m",
+  "B": "urdish-v2-4b-q4_k_m",
+  "C": "base-4b-q4_k_m",
+  "D": "base-1.7b-q4_k_m",
+  "E": "urdish-v2-1.7b-q4_k_m",
+  "F": "urdish-1.7b-q4_k_m"
+ },
+ {
+  "id": 9,
+  "A": "urdish-v2-1.7b-q4_k_m",
+  "B": "urdish-v2-4b-q4_k_m",
+  "C": "urdish-4b-q4_k_m",
+  "D": "urdish-1.7b-q4_k_m",
+  "E": "base-1.7b-q4_k_m",
+  "F": "base-4b-q4_k_m"
+ },
+ {
+  "id": 10,
+  "A": "base-1.7b-q4_k_m",
+  "B": "urdish-4b-q4_k_m",
+  "C": "base-4b-q4_k_m",
+  "D": "urdish-v2-4b-q4_k_m",
+  "E": "urdish-v2-1.7b-q4_k_m",
+  "F": "urdish-1.7b-q4_k_m"
+ },
+ {
+  "id": 11,
+  "A": "base-1.7b-q4_k_m",
+  "B": "urdish-4b-q4_k_m",
+  "C": "urdish-v2-1.7b-q4_k_m",
+  "D": "urdish-1.7b-q4_k_m",
+  "E": "urdish-v2-4b-q4_k_m",
+  "F": "base-4b-q4_k_m"
+ },
+ {
+  "id": 12,
+  "A": "base-4b-q4_k_m",
+  "B": "urdish-v2-4b-q4_k_m",
+  "C": "base-1.7b-q4_k_m",
+  "D": "urdish-1.7b-q4_k_m",
+  "E": "urdish-4b-q4_k_m",
+  "F": "urdish-v2-1.7b-q4_k_m"
+ },
+ {
+  "id": 13,
+  "A": "base-1.7b-q4_k_m",
+  "B": "urdish-v2-1.7b-q4_k_m",
+  "C": "urdish-4b-q4_k_m",
+  "D": "base-4b-q4_k_m",
+  "E": "urdish-v2-4b-q4_k_m",
+  "F": "urdish-1.7b-q4_k_m"
+ },
+ {
+  "id": 14,
+  "A": "urdish-4b-q4_k_m",
+  "B": "urdish-v2-1.7b-q4_k_m",
+  "C": "urdish-v2-4b-q4_k_m",
+  "D": "base-1.7b-q4_k_m",
+  "E": "urdish-1.7b-q4_k_m",
+  "F": "base-4b-q4_k_m"
+ },
+ {
+  "id": 15,
+  "A": "base-1.7b-q4_k_m",
+  "B": "urdish-1.7b-q4_k_m",
+  "C": "urdish-v2-4b-q4_k_m",
+  "D": "urdish-4b-q4_k_m",
+  "E": "base-4b-q4_k_m",
+  "F": "urdish-v2-1.7b-q4_k_m"
+ },
+ {
+  "id": 16,
+  "A": "urdish-1.7b-q4_k_m",
+  "B": "urdish-v2-4b-q4_k_m",
+  "C": "urdish-v2-1.7b-q4_k_m",
+  "D": "base-4b-q4_k_m",
+  "E": "urdish-4b-q4_k_m",
+  "F": "base-1.7b-q4_k_m"
+ },
+ {
+  "id": 17,
+  "A": "urdish-v2-1.7b-q4_k_m",
+  "B": "base-4b-q4_k_m",
+  "C": "base-1.7b-q4_k_m",
+  "D": "urdish-4b-q4_k_m",
+  "E": "urdish-v2-4b-q4_k_m",
+  "F": "urdish-1.7b-q4_k_m"
+ },
+ {
+  "id": 18,
+  "A": "urdish-4b-q4_k_m",
+  "B": "urdish-v2-1.7b-q4_k_m",
+  "C": "urdish-1.7b-q4_k_m",
+  "D": "base-1.7b-q4_k_m",
+  "E": "urdish-v2-4b-q4_k_m",
+  "F": "base-4b-q4_k_m"
+ },
+ {
+  "id": 19,
+  "A": "base-1.7b-q4_k_m",
+  "B": "base-4b-q4_k_m",
+  "C": "urdish-v2-1.7b-q4_k_m",
+  "D": "urdish-v2-4b-q4_k_m",
+  "E": "urdish-1.7b-q4_k_m",
+  "F": "urdish-4b-q4_k_m"
+ },
+ {
+  "id": 20,
+  "A": "urdish-v2-4b-q4_k_m",
+  "B": "urdish-1.7b-q4_k_m",
+  "C": "urdish-v2-1.7b-q4_k_m",
+  "D": "base-1.7b-q4_k_m",
+  "E": "base-4b-q4_k_m",
+  "F": "urdish-4b-q4_k_m"
+ },
+ {
+  "id": 21,
+  "A": "base-4b-q4_k_m",
+  "B": "urdish-v2-4b-q4_k_m",
+  "C": "urdish-4b-q4_k_m",
+  "D": "base-1.7b-q4_k_m",
+  "E": "urdish-1.7b-q4_k_m",
+  "F": "urdish-v2-1.7b-q4_k_m"
+ },
+ {
+  "id": 22,
+  "A": "urdish-v2-4b-q4_k_m",
+  "B": "base-1.7b-q4_k_m",
+  "C": "urdish-1.7b-q4_k_m",
+  "D": "urdish-4b-q4_k_m",
+  "E": "base-4b-q4_k_m",
+  "F": "urdish-v2-1.7b-q4_k_m"
+ },
+ {
+  "id": 23,
+  "A": "urdish-v2-1.7b-q4_k_m",
+  "B": "base-4b-q4_k_m",
+  "C": "base-1.7b-q4_k_m",
+  "D": "urdish-1.7b-q4_k_m",
+  "E": "urdish-4b-q4_k_m",
+  "F": "urdish-v2-4b-q4_k_m"
+ },
+ {
+  "id": 24,
+  "A": "urdish-1.7b-q4_k_m",
+  "B": "urdish-v2-1.7b-q4_k_m",
+  "C": "base-1.7b-q4_k_m",
+  "D": "base-4b-q4_k_m",
+  "E": "urdish-4b-q4_k_m",
+  "F": "urdish-v2-4b-q4_k_m"
+ },
+ {
+  "id": 25,
+  "A": "base-1.7b-q4_k_m",
+  "B": "urdish-4b-q4_k_m",
+  "C": "urdish-v2-1.7b-q4_k_m",
+  "D": "urdish-v2-4b-q4_k_m",
+  "E": "base-4b-q4_k_m",
+  "F": "urdish-1.7b-q4_k_m"
+ },
+ {
+  "id": 26,
+  "A": "urdish-1.7b-q4_k_m",
+  "B": "base-4b-q4_k_m",
+  "C": "urdish-v2-4b-q4_k_m",
+  "D": "base-1.7b-q4_k_m",
+  "E": "urdish-4b-q4_k_m",
+  "F": "urdish-v2-1.7b-q4_k_m"
+ },
+ {
+  "id": 27,
+  "A": "base-4b-q4_k_m",
+  "B": "urdish-v2-4b-q4_k_m",
+  "C": "urdish-1.7b-q4_k_m",
+  "D": "base-1.7b-q4_k_m",
+  "E": "urdish-4b-q4_k_m",
+  "F": "urdish-v2-1.7b-q4_k_m"
+ },
+ {
+  "id": 28,
+  "A": "urdish-1.7b-q4_k_m",
+  "B": "urdish-v2-1.7b-q4_k_m",
+  "C": "urdish-v2-4b-q4_k_m",
+  "D": "base-1.7b-q4_k_m",
+  "E": "urdish-4b-q4_k_m",
+  "F": "base-4b-q4_k_m"
+ },
+ {
+  "id": 29,
+  "A": "urdish-v2-1.7b-q4_k_m",
+  "B": "urdish-v2-4b-q4_k_m",
+  "C": "base-1.7b-q4_k_m",
+  "D": "urdish-4b-q4_k_m",
+  "E": "base-4b-q4_k_m",
+  "F": "urdish-1.7b-q4_k_m"
+ },
+ {
+  "id": 30,
+  "A": "base-1.7b-q4_k_m",
+  "B": "base-4b-q4_k_m",
+  "C": "urdish-v2-1.7b-q4_k_m",
+  "D": "urdish-4b-q4_k_m",
+  "E": "urdish-1.7b-q4_k_m",
+  "F": "urdish-v2-4b-q4_k_m"
+ },
+ {
+  "id": 31,
+  "A": "urdish-1.7b-q4_k_m",
+  "B": "urdish-v2-1.7b-q4_k_m",
+  "C": "base-4b-q4_k_m",
+  "D": "urdish-4b-q4_k_m",
+  "E": "base-1.7b-q4_k_m",
+  "F": "urdish-v2-4b-q4_k_m"
+ },
+ {
+  "id": 32,
+  "A": "base-4b-q4_k_m",
+  "B": "urdish-1.7b-q4_k_m",
+  "C": "urdish-v2-4b-q4_k_m",
+  "D": "urdish-4b-q4_k_m",
+  "E": "urdish-v2-1.7b-q4_k_m",
+  "F": "base-1.7b-q4_k_m"
+ },
+ {
+  "id": 33,
+  "A": "urdish-4b-q4_k_m",
+  "B": "urdish-1.7b-q4_k_m",
+  "C": "urdish-v2-4b-q4_k_m",
+  "D": "base-4b-q4_k_m",
+  "E": "base-1.7b-q4_k_m",
+  "F": "urdish-v2-1.7b-q4_k_m"
+ },
+ {
+  "id": 34,
+  "A": "urdish-v2-4b-q4_k_m",
+  "B": "urdish-1.7b-q4_k_m",
+  "C": "base-4b-q4_k_m",
+  "D": "urdish-v2-1.7b-q4_k_m",
+  "E": "urdish-4b-q4_k_m",
+  "F": "base-1.7b-q4_k_m"
+ },
+ {
+  "id": 35,
+  "A": "urdish-v2-1.7b-q4_k_m",
+  "B": "urdish-4b-q4_k_m",
+  "C": "urdish-v2-4b-q4_k_m",
+  "D": "base-1.7b-q4_k_m",
+  "E": "urdish-1.7b-q4_k_m",
+  "F": "base-4b-q4_k_m"
+ },
+ {
+  "id": 36,
+  "A": "base-1.7b-q4_k_m",
+  "B": "urdish-4b-q4_k_m",
+  "C": "base-4b-q4_k_m",
+  "D": "urdish-v2-1.7b-q4_k_m",
+  "E": "urdish-v2-4b-q4_k_m",
+  "F": "urdish-1.7b-q4_k_m"
+ },
+ {
+  "id": 37,
+  "A": "urdish-v2-4b-q4_k_m",
+  "B": "base-1.7b-q4_k_m",
+  "C": "urdish-v2-1.7b-q4_k_m",
+  "D": "urdish-4b-q4_k_m",
+  "E": "urdish-1.7b-q4_k_m",
+  "F": "base-4b-q4_k_m"
+ },
+ {
+  "id": 38,
+  "A": "urdish-4b-q4_k_m",
+  "B": "base-4b-q4_k_m",
+  "C": "urdish-v2-1.7b-q4_k_m",
+  "D": "urdish-1.7b-q4_k_m",
+  "E": "urdish-v2-4b-q4_k_m",
+  "F": "base-1.7b-q4_k_m"
+ },
+ {
+  "id": 39,
+  "A": "urdish-4b-q4_k_m",
+  "B": "urdish-v2-4b-q4_k_m",
+  "C": "urdish-1.7b-q4_k_m",
+  "D": "urdish-v2-1.7b-q4_k_m",
+  "E": "base-1.7b-q4_k_m",
+  "F": "base-4b-q4_k_m"
+ },
+ {
+  "id": 40,
+  "A": "urdish-v2-1.7b-q4_k_m",
+  "B": "base-1.7b-q4_k_m",
+  "C": "urdish-1.7b-q4_k_m",
+  "D": "urdish-v2-4b-q4_k_m",
+  "E": "base-4b-q4_k_m",
+  "F": "urdish-4b-q4_k_m"
+ },
+ {
+  "id": 41,
+  "A": "urdish-4b-q4_k_m",
+  "B": "urdish-v2-4b-q4_k_m",
+  "C": "base-4b-q4_k_m",
+  "D": "urdish-v2-1.7b-q4_k_m",
+  "E": "base-1.7b-q4_k_m",
+  "F": "urdish-1.7b-q4_k_m"
+ },
+ {
+  "id": 42,
+  "A": "urdish-v2-4b-q4_k_m",
+  "B": "urdish-4b-q4_k_m",
+  "C": "base-4b-q4_k_m",
+  "D": "base-1.7b-q4_k_m",
+  "E": "urdish-1.7b-q4_k_m",
+  "F": "urdish-v2-1.7b-q4_k_m"
+ },
+ {
+  "id": 43,
+  "A": "urdish-1.7b-q4_k_m",
+  "B": "urdish-v2-1.7b-q4_k_m",
+  "C": "urdish-v2-4b-q4_k_m",
+  "D": "base-4b-q4_k_m",
+  "E": "base-1.7b-q4_k_m",
+  "F": "urdish-4b-q4_k_m"
+ },
+ {
+  "id": 44,
+  "A": "base-1.7b-q4_k_m",
+  "B": "urdish-v2-4b-q4_k_m",
+  "C": "urdish-1.7b-q4_k_m",
+  "D": "urdish-4b-q4_k_m",
+  "E": "base-4b-q4_k_m",
+  "F": "urdish-v2-1.7b-q4_k_m"
+ },
+ {
+  "id": 45,
+  "A": "base-4b-q4_k_m",
+  "B": "urdish-v2-4b-q4_k_m",
+  "C": "base-1.7b-q4_k_m",
+  "D": "urdish-1.7b-q4_k_m",
+  "E": "urdish-v2-1.7b-q4_k_m",
+  "F": "urdish-4b-q4_k_m"
+ },
+ {
+  "id": 46,
+  "A": "base-1.7b-q4_k_m",
+  "B": "urdish-v2-4b-q4_k_m",
+  "C": "base-4b-q4_k_m",
+  "D": "urdish-1.7b-q4_k_m",
+  "E": "urdish-v2-1.7b-q4_k_m",
+  "F": "urdish-4b-q4_k_m"
+ },
+ {
+  "id": 47,
+  "A": "urdish-v2-4b-q4_k_m",
+  "B": "urdish-4b-q4_k_m",
+  "C": "urdish-v2-1.7b-q4_k_m",
+  "D": "urdish-1.7b-q4_k_m",
+  "E": "base-1.7b-q4_k_m",
+  "F": "base-4b-q4_k_m"
+ },
+ {
+  "id": 48,
+  "A": "base-1.7b-q4_k_m",
+  "B": "urdish-v2-4b-q4_k_m",
+  "C": "urdish-1.7b-q4_k_m",
+  "D": "urdish-4b-q4_k_m",
+  "E": "urdish-v2-1.7b-q4_k_m",
+  "F": "base-4b-q4_k_m"
+ },
+ {
+  "id": 49,
+  "A": "urdish-v2-4b-q4_k_m",
+  "B": "urdish-4b-q4_k_m",
+  "C": "urdish-1.7b-q4_k_m",
+  "D": "urdish-v2-1.7b-q4_k_m",
+  "E": "base-1.7b-q4_k_m",
+  "F": "base-4b-q4_k_m"
+ },
+ {
+  "id": 50,
+  "A": "urdish-4b-q4_k_m",
+  "B": "urdish-1.7b-q4_k_m",
+  "C": "base-1.7b-q4_k_m",
+  "D": "base-4b-q4_k_m",
+  "E": "urdish-v2-1.7b-q4_k_m",
+  "F": "urdish-v2-4b-q4_k_m"
+ },
+ {
+  "id": 51,
+  "A": "urdish-v2-4b-q4_k_m",
+  "B": "base-4b-q4_k_m",
+  "C": "urdish-v2-1.7b-q4_k_m",
+  "D": "base-1.7b-q4_k_m",
+  "E": "urdish-4b-q4_k_m",
+  "F": "urdish-1.7b-q4_k_m"
+ },
+ {
+  "id": 52,
+  "A": "base-4b-q4_k_m",
+  "B": "urdish-v2-4b-q4_k_m",
+  "C": "urdish-v2-1.7b-q4_k_m",
+  "D": "urdish-1.7b-q4_k_m",
+  "E": "base-1.7b-q4_k_m",
+  "F": "urdish-4b-q4_k_m"
+ },
+ {
+  "id": 53,
+  "A": "base-1.7b-q4_k_m",
+  "B": "urdish-1.7b-q4_k_m",
+  "C": "base-4b-q4_k_m",
+  "D": "urdish-4b-q4_k_m",
+  "E": "urdish-v2-1.7b-q4_k_m",
+  "F": "urdish-v2-4b-q4_k_m"
+ },
+ {
+  "id": 54,
+  "A": "base-4b-q4_k_m",
+  "B": "urdish-4b-q4_k_m",
+  "C": "urdish-v2-1.7b-q4_k_m",
+  "D": "urdish-1.7b-q4_k_m",
+  "E": "urdish-v2-4b-q4_k_m",
+  "F": "base-1.7b-q4_k_m"
+ },
+ {
+  "id": 55,
+  "A": "urdish-v2-4b-q4_k_m",
+  "B": "base-4b-q4_k_m",
+  "C": "base-1.7b-q4_k_m",
+  "D": "urdish-1.7b-q4_k_m",
+  "E": "urdish-v2-1.7b-q4_k_m",
+  "F": "urdish-4b-q4_k_m"
+ },
+ {
+  "id": 56,
+  "A": "urdish-4b-q4_k_m",
+  "B": "base-1.7b-q4_k_m",
+  "C": "base-4b-q4_k_m",
+  "D": "urdish-v2-4b-q4_k_m",
+  "E": "urdish-1.7b-q4_k_m",
+  "F": "urdish-v2-1.7b-q4_k_m"
+ },
+ {
+  "id": 57,
+  "A": "base-1.7b-q4_k_m",
+  "B": "urdish-v2-1.7b-q4_k_m",
+  "C": "base-4b-q4_k_m",
+  "D": "urdish-v2-4b-q4_k_m",
+  "E": "urdish-4b-q4_k_m",
+  "F": "urdish-1.7b-q4_k_m"
+ },
+ {
+  "id": 58,
+  "A": "urdish-v2-4b-q4_k_m",
+  "B": "base-4b-q4_k_m",
+  "C": "base-1.7b-q4_k_m",
+  "D": "urdish-4b-q4_k_m",
+  "E": "urdish-1.7b-q4_k_m",
+  "F": "urdish-v2-1.7b-q4_k_m"
+ },
+ {
+  "id": 59,
+  "A": "base-4b-q4_k_m",
+  "B": "urdish-1.7b-q4_k_m",
+  "C": "urdish-v2-4b-q4_k_m",
+  "D": "urdish-v2-1.7b-q4_k_m",
+  "E": "base-1.7b-q4_k_m",
+  "F": "urdish-4b-q4_k_m"
+ }
+]
