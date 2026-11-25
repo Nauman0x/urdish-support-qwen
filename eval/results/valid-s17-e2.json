@@ -1,0 +1,31 @@
+{
+  "n": 40,
+  "percent": {
+    "tag_valid": 97.5,
+    "script_match": 100.0,
+    "intent": 67.5,
+    "order_id": 90.0,
+    "handoff": 62.5,
+    "all_correct": 45.0,
+    "devanagari": 0.0
+  },
+  "handoff_correct_by_kind": {
+    "answerable": "15/22",
+    "silent": "5/8",
+    "lookup": "3/4",
+    "human": "2/2",
+    "injection": "0/2",
+    "smalltalk": "0/2"
+  },
+  "script_match_by_lang": {
+    "roman": "20/20",
+    "urdu": "10/10",
+    "english": "10/10"
+  },
+  "speed": {
+    "gen_tok_per_s": 39.9,
+    "prompt_tok_per_s": 232.8,
+    "mean_latency_s": 1.9
+  },
+  "name": "valid-s17-e2"
+}

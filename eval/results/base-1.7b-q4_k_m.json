@@ -1,0 +1,31 @@
+{
+  "n": 60,
+  "percent": {
+    "tag_valid": 100.0,
+    "script_match": 51.7,
+    "intent": 40.0,
+    "order_id": 81.7,
+    "handoff": 73.3,
+    "all_correct": 15.0,
+    "devanagari": 0.0
+  },
+  "handoff_correct_by_kind": {
+    "answerable": "27/33",
+    "silent": "10/12",
+    "lookup": "2/6",
+    "human": "3/3",
+    "injection": "2/3",
+    "smalltalk": "0/3"
+  },
+  "script_match_by_lang": {
+    "roman": "11/30",
+    "english": "14/15",
+    "urdu": "6/15"
+  },
+  "speed": {
+    "gen_tok_per_s": 40.2,
+    "prompt_tok_per_s": 243.1,
+    "mean_latency_s": 1.4
+  },
+  "name": "base-1.7b-q4_k_m"
+}

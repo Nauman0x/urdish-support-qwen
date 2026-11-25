@@ -24,7 +24,7 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     rng = random.Random(42)
     for split in sys.argv[1:] or ("train", "valid", "eval"):
-        rows = []
+        rows, scored = [], []
         for biz in cards[split]:
             src = ROOT / "data/src" / f"{biz['id']}.jsonl"
             for raw in src.read_text(encoding="utf-8").splitlines():
@@ -40,12 +40,18 @@ def main():
                 if split == "eval":
                     row["meta"] = r["meta"]
                     row["tag"] = r["tag"]
+                elif split == "valid":
+                    scored.append({**row, "meta": r["meta"], "tag": r["tag"]})
                 rows.append(row)
         if split != "eval":
             rng.shuffle(rows)
         with open(OUT / f"{split}.jsonl", "w", encoding="utf-8", newline="\n") as f:
             for row in rows:
                 f.write(json.dumps(row, ensure_ascii=False) + "\n")
+        if scored:  # labelled copy of valid, used only for choosing epochs (never the eval set)
+            with open(OUT.parent / "valid_scored.jsonl", "w", encoding="utf-8", newline="\n") as f:
+                for row in scored:
+                    f.write(json.dumps(row, ensure_ascii=False) + "\n")
         print(f"{split}: {len(rows)} rows")
 
 

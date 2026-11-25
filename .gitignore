@@ -9,3 +9,4 @@ runs/
 *.safetensors
 *.bin
 data/review.csv
+__pycache__/

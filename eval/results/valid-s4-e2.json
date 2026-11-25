@@ -1,0 +1,31 @@
+{
+  "n": 40,
+  "percent": {
+    "tag_valid": 100.0,
+    "script_match": 100.0,
+    "intent": 75.0,
+    "order_id": 100.0,
+    "handoff": 77.5,
+    "all_correct": 60.0,
+    "devanagari": 0.0
+  },
+  "handoff_correct_by_kind": {
+    "answerable": "17/22",
+    "silent": "6/8",
+    "lookup": "3/4",
+    "human": "2/2",
+    "injection": "1/2",
+    "smalltalk": "2/2"
+  },
+  "script_match_by_lang": {
+    "roman": "20/20",
+    "urdu": "10/10",
+    "english": "10/10"
+  },
+  "speed": {
+    "gen_tok_per_s": 15.4,
+    "prompt_tok_per_s": 73.6,
+    "mean_latency_s": 4.7
+  },
+  "name": "valid-s4-e2"
+}
