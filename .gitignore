@@ -8,3 +8,4 @@ runs/
 *.gguf
 *.safetensors
 *.bin
+data/review.csv
