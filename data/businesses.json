@@ -1,0 +1,104 @@
+{
+  "_note": "All businesses, names, prices and policies are fictional, written for this dataset.",
+  "train": [
+    {
+      "id": "libas-lawn",
+      "type": "women's clothing (lawn suits)",
+      "card": "Business: Libas Lawn House (online women's clothing, Lahore)\n- Products: unstitched 3-piece lawn suits Rs 3,450-6,900; stitched suits +Rs 1,200, ready in 7 working days.\n- Sizes for stitched: S, M, L, XL (size chart on product page). Custom measurements not available.\n- Delivery: Lahore 2-3 working days, rest of Pakistan 3-5 working days. Delivery charge Rs 250, free above Rs 7,000.\n- Payment: Cash on Delivery, JazzCash, bank transfer.\n- Exchange: within 7 days of delivery, unused with tags, for unstitched suits only. Stitched suits cannot be exchanged except for a stitching fault.\n- Refund: only if the item is damaged or wrong; report within 48 hours with photos. Refund by bank transfer in 5-7 working days.\n- Sale items cannot be exchanged or refunded.\n- Hours: Mon-Sat 10am-7pm."
+    },
+    {
+      "id": "karachi-kicks",
+      "type": "shoes",
+      "card": "Business: Karachi Kicks (online shoe store, Karachi)\n- Men's and women's sneakers, sandals and khussa. Prices Rs 2,200-9,500.\n- Sizes: EU 36-46. If between sizes, choose the larger size.\n- Delivery: Karachi next working day if ordered before 2pm; other cities 3-4 working days. Flat delivery charge Rs 200.\n- Payment: Cash on Delivery or card on website. COD orders above Rs 8,000 need advance payment of Rs 1,000.\n- Size exchange: within 10 days, shoes unworn in original box. Customer pays Rs 200 return shipping for size exchange.\n- Refund: only for manufacturing defects reported within 14 days, as store credit or bank transfer.\n- Order cancellation possible until the order is dispatched."
+    },
+    {
+      "id": "bismillah-biryani",
+      "type": "restaurant food delivery",
+      "card": "Business: Bismillah Biryani & BBQ (food delivery, Karachi - Gulshan, Johar, PECHS)\n- Menu: chicken biryani Rs 450 single / Rs 1,600 family; beef biryani Rs 550 / Rs 1,900; BBQ platter Rs 2,400; raita Rs 80.\n- Open daily 12pm-12am. Last order 11:30pm.\n- Delivery time 40-60 minutes. Delivery charge Rs 100; free on orders above Rs 2,000.\n- Delivery only in Gulshan, Johar and PECHS.\n- Payment: cash on delivery or JazzCash. No cards at the door.\n- Wrong or missing item: report within 1 hour of delivery; we resend the item free.\n- Bulk orders (above 20 people) need 24 hours notice."
+    },
+    {
+      "id": "mobile-zone",
+      "type": "phone accessories and electronics",
+      "card": "Business: Mobile Zone (online phone accessories, Rawalpindi)\n- Products: chargers, cables, earbuds, power banks, phone covers. No mobile phones sold.\n- Warranty: earbuds and power banks 6 months checking warranty; cables and covers no warranty.\n- Warranty claim: send the item with the invoice; replacement in 7-10 working days if the fault is confirmed. Physical or water damage is not covered.\n- Delivery all over Pakistan 2-5 working days, Rs 199. Free above Rs 3,000.\n- Payment: COD, Easypaisa, card.\n- Returns: within 3 days of delivery, only if sealed and unopened.\n- Hours: Mon-Sat 11am-8pm."
+    },
+    {
+      "id": "glow-naturals",
+      "type": "skincare and cosmetics",
+      "card": "Business: Glow Naturals (online skincare, Islamabad)\n- Products: face wash Rs 950, vitamin C serum Rs 2,250, sunblock SPF 50 Rs 1,650, hair oil Rs 1,100.\n- All products are for external use. We do not give medical advice; for skin conditions please see a dermatologist.\n- Delivery 3-5 working days nationwide, Rs 220. Free above Rs 4,000.\n- Payment: COD, bank transfer, JazzCash.\n- Opened products cannot be returned for hygiene reasons.\n- Damaged or leaking product: send a photo within 24 hours of delivery and we will replace it.\n- Expiry is at least 12 months from the delivery date."
+    },
+    {
+      "id": "kids-corner",
+      "type": "toys",
+      "card": "Business: Kids Corner Toys (online toy shop, Lahore)\n- Toys for ages 1-12, prices Rs 600-15,000. Age range is written on each product page.\n- Delivery: Lahore 1-2 days, other cities 3-5 days. Rs 200 delivery, free above Rs 5,000.\n- Gift wrapping Rs 150 per item; a gift card message can be added at checkout.\n- Payment: COD and card.\n- Returns: within 7 days if unopened. Opened toys are returned only if faulty.\n- Batteries are not included unless stated on the product page.\n- Customer support on WhatsApp 10am-6pm, Mon-Sat."
+    },
+    {
+      "id": "ghar-decor",
+      "type": "furniture and home decor",
+      "card": "Business: Ghar Decor (furniture and decor, Lahore and Islamabad)\n- Delivery: Lahore and Islamabad only, 7-14 working days for furniture, 3-5 days for decor items.\n- Delivery charge: furniture Rs 2,500, decor Rs 300.\n- Free assembly for beds, wardrobes and dining tables in Lahore and Islamabad.\n- Payment: 50% advance for furniture, remaining on delivery. Decor items: COD allowed.\n- Custom size/color furniture: not available.\n- Damage during delivery: check at the door and report before signing; report later is not accepted.\n- Furniture orders can be cancelled within 24 hours of payment for a full refund; after that 20% cancellation charge."
+    },
+    {
+      "id": "fresh-basket",
+      "type": "grocery delivery",
+      "card": "Business: Fresh Basket (grocery delivery, Islamabad and Rawalpindi)\n- Delivery slots: 10am-1pm, 2pm-5pm, 6pm-9pm. Same-day slot if ordered 3 hours before the slot.\n- Minimum order Rs 1,500. Delivery Rs 150, free above Rs 5,000.\n- Fruits and vegetables are weighed; final bill can differ by up to 10%.\n- Payment: COD, card on delivery, Easypaisa.\n- Missing or bad-quality items: report within 6 hours with a photo; refund to Fresh Basket wallet.\n- Out-of-stock items are removed from the order and not charged.\n- Service area: Islamabad sectors and Rawalpindi Saddar, Bahria Town, DHA."
+    },
+    {
+      "id": "tezraftar-courier",
+      "type": "courier service",
+      "card": "Business: TezRaftar Courier (parcel delivery, all Pakistan)\n- Rates within city Rs 180 up to 1 kg; intercity Rs 280 up to 1 kg; Rs 120 per extra kg.\n- Delivery time: within city 1 day, intercity 2-4 working days. No delivery on Sundays.\n- Tracking: customers can track with the CN number on our website.\n- Prohibited items: cash, jewelry, liquids, medicines, weapons.\n- Lost parcel: claim within 15 days of booking; compensation up to Rs 5,000 or declared value, whichever is lower, only if the parcel was insured (2% of declared value).\n- Pickup from home: Rs 100 extra in Karachi, Lahore, Islamabad."
+    },
+    {
+      "id": "kitaab-ghar",
+      "type": "online bookstore",
+      "card": "Business: Kitaab Ghar (online bookstore, Lahore)\n- Urdu and English books: novels, poetry, Islamic books, school books (Punjab board).\n- Delivery all over Pakistan 3-6 working days, Rs 180. Free above Rs 3,000.\n- Pre-order books arrive in 3-4 weeks; pre-orders need full advance payment.\n- Payment: COD (not for pre-orders), bank transfer, JazzCash.\n- Returns: only for misprinted or damaged books, within 5 days, with photos.\n- Used books are sold as-is, no returns.\n- Bulk school orders (50+ books): 10% discount."
+    },
+    {
+      "id": "glam-salon",
+      "type": "beauty salon bookings",
+      "card": "Kaarobar: Glam Studio Salon (ladies salon, DHA Karachi)\n- Services: haircut Rs 2,500, facial Rs 3,500 se shuru, party makeup Rs 8,000, bridal makeup Rs 45,000 se shuru.\n- Appointment WhatsApp par book hoti hai. Bridal booking ke liye Rs 10,000 advance zaroori hai.\n- Timings: Tuesday se Sunday 11am-8pm. Monday off.\n- 15 minute se zyada late aane par appointment cancel ho sakti hai.\n- Appointment cancel/reschedule 24 ghante pehle free hai. Bridal advance non-refundable hai magar date ek dafa change ho sakti hai.\n- Home service available nahi hai.\n- Payment: cash, card, bank transfer."
+    },
+    {
+      "id": "fitzone-gym",
+      "type": "gym membership",
+      "card": "Business: FitZone Gym (Gulberg, Lahore)\n- Membership: monthly Rs 8,000, quarterly Rs 21,000, yearly Rs 72,000. One-time admission fee Rs 5,000.\n- Timings: men 6am-3pm and 9pm-12am, women 3pm-9pm. Friday closed.\n- Personal trainer: Rs 15,000 per month extra.\n- Membership freeze: allowed once a year for up to 30 days, only on quarterly and yearly plans.\n- Fees are non-refundable and non-transferable.\n- Free trial: one day, with CNIC.\n- Lockers available; bring your own lock."
+    },
+    {
+      "id": "sweet-tooth",
+      "type": "custom cake bakery",
+      "card": "Business: Sweet Tooth Bakery (custom cakes, Islamabad)\n- Cakes: 2 lb Rs 3,200, 3 lb Rs 4,600, 4 lb Rs 6,000. Fondant/theme cakes start at Rs 7,500.\n- Order at least 48 hours in advance; theme cakes 4 days in advance.\n- 50% advance to confirm order, rest on pickup/delivery.\n- Delivery in Islamabad only, Rs 400. Pickup from F-10 branch.\n- Eggless cakes available on request; we are not a nut-free kitchen.\n- Cancellations 24 hours before delivery: advance refunded. After that the advance is not refunded.\n- Name/message on cake is free."
+    },
+    {
+      "id": "tech-fix",
+      "type": "laptop repair",
+      "card": "Business: TechFix Laptop Repair (Hafeez Centre, Lahore)\n- Diagnosis fee Rs 1,000, adjusted in the repair bill if repair is done.\n- Common repairs: screen replacement Rs 9,000-25,000 depending on model; keyboard Rs 3,500-7,000; battery Rs 6,000-12,000; Windows install Rs 1,500.\n- Repair time 2-5 working days after customer approves the quote.\n- Warranty on repairs: 30 days on the replaced part only.\n- Data backup is the customer's responsibility; data backup service Rs 1,500.\n- Laptops not collected within 60 days are not our responsibility.\n- Courier service for other cities: customer pays both-way courier."
+    }
+  ],
+  "valid": [
+    {
+      "id": "paws-claws",
+      "type": "pet supplies",
+      "card": "Business: Paws & Claws (online pet supplies, Karachi)\n- Cat food 1.2 kg Rs 2,100, dog food 3 kg Rs 4,800, cat litter 10 L Rs 1,350.\n- Delivery Karachi 1-2 days, other cities 3-5 days. Rs 250, free above Rs 6,000.\n- Payment: COD, card, Easypaisa.\n- Food items cannot be returned once opened.\n- Wrong item delivered: exchange free within 3 days.\n- We do not give veterinary advice; please consult a vet."
+    },
+    {
+      "id": "safar-tours",
+      "type": "tour operator",
+      "card": "Business: Safar Tours (group trips from Lahore)\n- Trips: Naran 5 days Rs 38,000 per person; Hunza 7 days Rs 62,000; Murree 2 days Rs 14,000.\n- Price includes transport, hotel (shared rooms of 3-4) and breakfast + dinner.\n- Booking: 30% advance, rest 7 days before departure.\n- Cancellation: more than 15 days before departure 80% refund; 7-15 days 50%; less than 7 days no refund.\n- Children under 5 travel free without a seat.\n- Trips can be cancelled by us due to weather; then full refund or next trip."
+    }
+  ],
+  "eval": [
+    {
+      "id": "shifa-pharmacy",
+      "type": "online pharmacy",
+      "card": "Business: Shifa Pharmacy Online (medicine delivery, Lahore)\n- Prescription medicines need a clear photo of a valid prescription before dispatch.\n- We do not suggest medicines or doses; please ask your doctor.\n- Delivery in Lahore within 24 hours, Rs 150. Free above Rs 3,000.\n- Payment: COD and card.\n- Medicines cannot be returned once delivered, except wrong or damaged items reported within 24 hours.\n- Cold-chain items (insulin, vaccines) are delivered in an ice box; same-day delivery only.\n- Hours: daily 9am-11pm."
+    },
+    {
+      "id": "ilm-academy",
+      "type": "online tuition academy",
+      "card": "Kaarobar: Ilm Academy (online tuition, Zoom par)\n- Classes: Matric aur FSc ke liye Math, Physics, Chemistry, Biology, English.\n- Fee: ek subject Rs 4,000 mahana, teen ya zyada subjects Rs 10,000 mahana.\n- Classes Monday se Friday shaam 5 baje se 9 baje tak.\n- Pehli class free demo hai.\n- Fee har mahine ki 10 tareekh tak advance deni hoti hai. Fee wapis nahi hoti.\n- Har class ki recording 7 din tak available hoti hai.\n- Monthly test har mahine ke aakhri Saturday ko."
+    },
+    {
+      "id": "rent-a-ride",
+      "type": "car rental",
+      "card": "Business: RentaRide (car rental, Islamabad)\n- Cars: Suzuki Alto Rs 5,500/day, Toyota Corolla Rs 9,000/day, Toyota Fortuner Rs 25,000/day. Rates are with driver.\n- Self-drive only for Alto and Corolla, needs CNIC, valid license and Rs 30,000 security deposit.\n- Fuel is paid by the customer. Driver food and stay on outstation trips: Rs 2,000 per night.\n- Minimum booking 12 hours.\n- Cancellation free up to 24 hours before pickup; after that one day's rent is charged.\n- Outstation trips to northern areas only in Fortuner and Corolla.\n- Payment: cash or bank transfer, 25% advance to confirm."
+    }
+  ]
+}
