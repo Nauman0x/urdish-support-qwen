@@ -1,0 +1,31 @@
+{
+  "n": 60,
+  "percent": {
+    "tag_valid": 100.0,
+    "script_match": 93.3,
+    "intent": 73.3,
+    "order_id": 100.0,
+    "handoff": 78.3,
+    "all_correct": 60.0,
+    "devanagari": 0.0
+  },
+  "handoff_correct_by_kind": {
+    "answerable": "27/33",
+    "silent": "8/12",
+    "lookup": "4/6",
+    "human": "3/3",
+    "injection": "2/3",
+    "smalltalk": "3/3"
+  },
+  "script_match_by_lang": {
+    "roman": "30/30",
+    "english": "11/15",
+    "urdu": "15/15"
+  },
+  "speed": {
+    "gen_tok_per_s": 13.6,
+    "prompt_tok_per_s": 137.9,
+    "mean_latency_s": 5.1
+  },
+  "name": "urdish-1.7b-bf16"
+}

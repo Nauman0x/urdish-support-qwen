@@ -1,0 +1,31 @@
+{
+  "n": 60,
+  "percent": {
+    "tag_valid": 98.3,
+    "script_match": 95.0,
+    "intent": 76.7,
+    "order_id": 96.7,
+    "handoff": 76.7,
+    "all_correct": 60.0,
+    "devanagari": 0.0
+  },
+  "handoff_correct_by_kind": {
+    "answerable": "30/33",
+    "silent": "8/12",
+    "lookup": "3/6",
+    "human": "3/3",
+    "injection": "2/3",
+    "smalltalk": "0/3"
+  },
+  "script_match_by_lang": {
+    "roman": "30/30",
+    "english": "12/15",
+    "urdu": "15/15"
+  },
+  "speed": {
+    "gen_tok_per_s": 15.6,
+    "prompt_tok_per_s": 76.8,
+    "mean_latency_s": 5.2
+  },
+  "name": "urdish-4b-q4_k_m"
+}

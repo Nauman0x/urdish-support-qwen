@@ -1,0 +1,31 @@
+{
+  "n": 60,
+  "percent": {
+    "tag_valid": 96.7,
+    "script_match": 70.0,
+    "intent": 48.3,
+    "order_id": 93.3,
+    "handoff": 58.3,
+    "all_correct": 21.7,
+    "devanagari": 0.0
+  },
+  "handoff_correct_by_kind": {
+    "answerable": "24/33",
+    "silent": "3/12",
+    "lookup": "2/6",
+    "human": "3/3",
+    "injection": "1/3",
+    "smalltalk": "2/3"
+  },
+  "script_match_by_lang": {
+    "roman": "13/30",
+    "english": "15/15",
+    "urdu": "14/15"
+  },
+  "speed": {
+    "gen_tok_per_s": 5.9,
+    "prompt_tok_per_s": 56.3,
+    "mean_latency_s": 11.9
+  },
+  "name": "base-4b-bf16"
+}

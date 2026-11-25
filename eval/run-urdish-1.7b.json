@@ -1,0 +1,66 @@
+{
+  "base_model": "unsloth/Qwen3-1.7B",
+  "base_revision": "a972f4304f86a0a705d35b378d7a7675d58063a7",
+  "config": {
+    "model": "starter",
+    "recipe": "urdish-support",
+    "rank": 16,
+    "alpha": 32,
+    "learning_rate": 0.0002,
+    "epochs": 3.0,
+    "max_seq_length": 1024,
+    "batch_size": 4,
+    "gradient_accumulation_steps": 2,
+    "seed": 42
+  },
+  "loss_on": "assistant tokens only",
+  "training_seconds": 132.6,
+  "preparation_seconds": 18.7,
+  "metrics": {
+    "train_runtime": 121.2212,
+    "train_samples_per_second": 9.701,
+    "train_steps_per_second": 1.213,
+    "total_flos": 4557529391652864.0,
+    "train_loss": 0.5940712741037615,
+    "epoch": 3.0
+  },
+  "eval_history": [
+    {
+      "eval_loss": 0.6379777193069458,
+      "eval_runtime": 1.142,
+      "eval_samples_per_second": 35.025,
+      "eval_steps_per_second": 8.756,
+      "epoch": 1.0,
+      "step": 49
+    },
+    {
+      "eval_loss": 0.5752907991409302,
+      "eval_runtime": 1.1374,
+      "eval_samples_per_second": 35.167,
+      "eval_steps_per_second": 8.792,
+      "epoch": 2.0,
+      "step": 98
+    },
+    {
+      "eval_loss": 0.5945228338241577,
+      "eval_runtime": 1.1422,
+      "eval_samples_per_second": 35.019,
+      "eval_steps_per_second": 8.755,
+      "epoch": 3.0,
+      "step": 147
+    }
+  ],
+  "gpu": "NVIDIA GeForce RTX 5070",
+  "peak_vram_gb": 2.32,
+  "versions": {
+    "unsloth": "2026.11.6",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.17.0",
+    "trl": "1.15.0",
+    "peft": "0.21.3"
+  },
+  "data_sha256": {
+    "train": "dc4cd4f20b37b4d5efb38a1cce9122adc0bb6a7602567d0e5ce39649c8b7d659",
+    "valid": "02efe4127b1b1f4f704a77fb0e83288c259b74bd895e13f9375116e1c6f3ab8c"
+  }
+}

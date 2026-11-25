@@ -1,0 +1,50 @@
+{
+  "base_model": "unsloth/Qwen3-4B",
+  "base_revision": "bbe12ebf9362b3bcbf44e826e4c98910f2c02e72",
+  "config": {
+    "model": "starter",
+    "recipe": "urdish-support",
+    "rank": 16,
+    "alpha": 32,
+    "learning_rate": 0.0002,
+    "epochs": 1.0,
+    "max_seq_length": 1024,
+    "batch_size": 4,
+    "gradient_accumulation_steps": 2,
+    "seed": 42
+  },
+  "loss_on": "assistant tokens only",
+  "training_seconds": 118.4,
+  "preparation_seconds": 23.1,
+  "metrics": {
+    "train_runtime": 106.6881,
+    "train_samples_per_second": 3.674,
+    "train_steps_per_second": 0.459,
+    "total_flos": 3903811351080960.0,
+    "train_loss": 0.7386105498489068,
+    "epoch": 1.0
+  },
+  "eval_history": [
+    {
+      "eval_loss": 0.5226333141326904,
+      "eval_runtime": 0.1935,
+      "eval_samples_per_second": 206.69,
+      "eval_steps_per_second": 51.673,
+      "epoch": 1.0,
+      "step": 49
+    }
+  ],
+  "gpu": "NVIDIA GeForce RTX 5070",
+  "peak_vram_gb": 4.67,
+  "versions": {
+    "unsloth": "2026.11.6",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.17.0",
+    "trl": "1.15.0",
+    "peft": "0.21.3"
+  },
+  "data_sha256": {
+    "train": "dc4cd4f20b37b4d5efb38a1cce9122adc0bb6a7602567d0e5ce39649c8b7d659",
+    "valid": "02efe4127b1b1f4f704a77fb0e83288c259b74bd895e13f9375116e1c6f3ab8c"
+  }
+}
