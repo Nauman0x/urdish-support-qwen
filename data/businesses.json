@@ -70,6 +70,26 @@
       "id": "tech-fix",
       "type": "laptop repair",
       "card": "Business: TechFix Laptop Repair (Hafeez Centre, Lahore)\n- Diagnosis fee Rs 1,000, adjusted in the repair bill if repair is done.\n- Common repairs: screen replacement Rs 9,000-25,000 depending on model; keyboard Rs 3,500-7,000; battery Rs 6,000-12,000; Windows install Rs 1,500.\n- Repair time 2-5 working days after customer approves the quote.\n- Warranty on repairs: 30 days on the replaced part only.\n- Data backup is the customer's responsibility; data backup service Rs 1,500.\n- Laptops not collected within 60 days are not our responsibility.\n- Courier service for other cities: customer pays both-way courier."
+    },
+    {
+      "id": "silai-ghar",
+      "type": "tailoring shop (darzi)",
+      "card": "Kaarobar: Silai Ghar Tailors (gents aur ladies silai, Multan)\n- Silai rates: gents shalwar kameez Rs 1,800, waistcoat Rs 3,500, ladies simple suit Rs 1,500, ladies suit lace/piping ke saath Rs 2,200 se shuru.\n- Silai ka time 10 din hai. Urgent silai 4 din mein, Rs 800 extra.\n- Naap dukaan par liya jata hai, ya aap apna fitting wala purana suit de sakte hain.\n- Advance: kapra dete waqt silai ka 50% advance zaroori hai.\n- Fitting theek na ho to delivery ke 7 din ke andar alteration free hai.\n- Eid se 15 din pehle naye order lena band ho jata hai.\n- Timings: Saturday se Thursday 11am-9pm. Jumma off.\n- Payment: cash ya JazzCash."
+    },
+    {
+      "id": "naqsh-cards",
+      "type": "wedding cards and printing shop",
+      "card": "Kaarobar: Naqsh Wedding Cards & Printing (shaadi cards aur printing, Faisalabad)\n- Shaadi cards: simple card Rs 45 per piece, box card Rs 180 per piece. Kam se kam 100 cards ka order.\n- Design ka proof WhatsApp par bheja jata hai; print sirf customer ki approval ke baad hota hai.\n- Printing time: approval ke baad 7 working days. Urgent order 3 din mein, 20% extra.\n- Advance: order confirm karne ke liye 50%, baqi delivery par.\n- Approval ke baad spelling ya design ki ghalti ki zimmedari customer ki hai.\n- Delivery: Faisalabad mein Rs 300; doosre shehron mein courier, charges customer ke zimme.\n- Visiting cards 1,000 pieces Rs 2,500; flex banner Rs 60 per sq ft.\n- Timings: Monday se Saturday 10am-8pm."
+    },
+    {
+      "id": "thanda-ac",
+      "type": "AC repair and home appliance service",
+      "card": "Kaarobar: Thanda AC & Appliance Service (ghar par repair service, Hyderabad)\n- Visit/checking charges Rs 1,500; repair karwane par yeh bill mein adjust ho jate hain.\n- AC general service Rs 3,000 per unit; gas refill Rs 6,500 se shuru; AC installation Rs 4,500.\n- Washing machine aur fridge repair bhi hota hai; rate checking ke baad bataya jata hai.\n- Booking WhatsApp par hoti hai; technician aam tor par usi din ya agle din aata hai.\n- Service area: sirf Hyderabad shehar aur Qasimabad.\n- Warranty: badle gaye part par 30 din; gas refill par 15 din.\n- Timings: Monday se Saturday 9am-7pm. Sunday ko sirf emergency visit, Rs 1,000 extra.\n- Payment: kaam ke baad cash ya Easypaisa."
+    },
+    {
+      "id": "ammi-tiffin",
+      "type": "home catering and tiffin service",
+      "card": "Kaarobar: Ammi Jaan Tiffin Service (ghar ka khana, Peshawar)\n- Tiffin plan: lunch monthly Rs 9,000 (26 din), lunch + dinner monthly Rs 16,500. Ek din ka tiffin Rs 400.\n- Har tiffin mein salan, 4 roti ya chawal, aur salad. Menu har hafte WhatsApp par bheja jata hai.\n- Delivery Hayatabad aur University Town mein free. Lunch 12:30-1:30pm, dinner 7:30-8:30pm.\n- Sunday chhutti hai, us din tiffin nahi aata.\n- Monthly plan ki payment advance hoti hai. Ek din pehle bata kar tiffin cancel karein to woh din agle mahine adjust ho jata hai.\n- Daawat/party catering: kam se kam 25 log, Rs 1,200 per head se shuru, 3 din pehle order dena zaroori hai.\n- Payment: cash, JazzCash, bank transfer."
     }
   ],
   "valid": [

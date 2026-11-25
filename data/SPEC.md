@@ -66,6 +66,18 @@ Languages per business: about 15 Roman Urdu, 7 Urdu script, 6 English. Customers
 
 ## Splits
 
-- train: 14 businesses x 28 = 392
+- train (v2): 14 businesses x 31 + 4 businesses x 12 = 482
 - valid: 2 unseen businesses x 20 = 40
 - eval (held out): 3 unseen **business types** x 20 = 60. Never used for training or tuning.
+
+## v2 additions (after the first held-out run)
+
+The v1 models (trained on the 392 rows above) showed three failure patterns on the held-out set. v2 adds 90 training rows aimed at them; validation and eval are unchanged.
+
+| Failure in v1 | Added rows |
+|---|---|
+| English/Urdu customers of a business whose card is in Roman Urdu got Roman Urdu replies | 4 new businesses with Roman Urdu cards (silai-ghar, naqsh-cards, thanda-ac, ammi-tiffin), 12 rows each, weighted to English (6) and Urdu script (3) customers |
+| Friendly small talk was handed off to the team | 2 more smalltalk rows per original business (28) |
+| Questions the card does not answer got invented answers | 1 more silent row per original business (14) |
+
+New business types avoid every validation and eval type.
