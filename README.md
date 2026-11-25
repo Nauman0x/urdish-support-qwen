@@ -87,6 +87,16 @@ CUSTOMER:
 
 The model returns the reply plus a last line `TAG: {...}`; `split_output()` in `common.py` parses it.
 
+### On real WhatsApp (optional)
+
+[whatsapp/bridge.py](whatsapp/bridge.py) connects a WhatsApp number to the local model through [WaSender](https://wasenderapi.com): incoming message → webhook → local llama-server → reply. The model still runs on your machine; only the WhatsApp transport goes through WaSender. The bridge checks the webhook secret, ignores its own and group messages, and queues replies to respect WaSender's free-trial limit (1 message per minute).
+
+1. Put `WASENDER_API_KEY` and `WASENDER_WEBHOOK_SECRET` in `.env` (see [.env.example](.env.example); `.env` is git-ignored).
+2. Start the fine-tuned model on port 8092 (for example with `demo/run_demo.sh`) and install [cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads/).
+3. Run `bash whatsapp/run_whatsapp.sh --business shifa-pharmacy` (or `--card my_policy.txt` for your own business), then paste the printed `https://….trycloudflare.com/webhook` URL into the WaSender session's webhook settings.
+
+WaSender links a WhatsApp account the way WhatsApp Web does; it is not Meta's official API, so use a spare number. `whatsapp/test_bridge.sh` tests the bridge locally with fake webhooks and sends nothing.
+
 ## Before and after
 
 All numbers come from the **held-out test set** (60 chats from 3 business types never seen in training), on **CPU only** (Ryzen 7 7800X3D, 8 threads, llama.cpp, temperature 0). Settings were picked on validation before scoring.
