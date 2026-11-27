@@ -127,6 +127,8 @@ What the bridge does:
 - Sends the reply text to the customer and uses the TAG for routing. With `--notify-owner`, chats the model hands off (`handoff: true`) are forwarded to the owner's number with the intent and order ID.
 - Queues replies to respect WaSender's free-trial limit of 1 message per minute; paid plans remove this limit. The model itself answers in a few seconds.
 
+**Tested live on 27 Nov 2026** with the 4B Q4 model on CPU and the Shifa Pharmacy card. A customer asked "Panadol cf stock mein hai?" on WhatsApp, and the reply arrived 4 seconds later (model 2.8 s): *"Maazrat, hamari policy mein medicines ki stock ki maloomat nahi hai. Hamari team jald aap se rabta karegi."*, with `handoff: true`.
+
 1. Put `WASENDER_API_KEY` and `WASENDER_WEBHOOK_SECRET` in `.env` (see [.env.example](https://github.com/Nauman0x/urdish-support-qwen/blob/main/.env.example); `.env` is git-ignored).
 2. Start the fine-tuned model on port 8092 (for example with `demo/run_demo.sh`) and install [cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads/).
 3. Run `bash whatsapp/run_whatsapp.sh --business shifa-pharmacy` (or `--card my_policy.txt` for your own business), then paste the printed `https://….trycloudflare.com/webhook` URL into the WaSender session's webhook settings.

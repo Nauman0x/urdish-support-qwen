@@ -113,7 +113,10 @@ class Bridge:
             return 200, {"success": True}
         req = urllib.request.Request(
             SEND_URL, data=json.dumps({"to": "+" + phone.lstrip("+"), "text": text}).encode(),
-            headers={"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"})
+            headers={"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json",
+                     "Accept": "application/json",
+                     # WaSender sits behind Cloudflare, which rejects Python's default user agent (error 1010)
+                     "User-Agent": "urdish-support-bridge/1.0 (+https://github.com/Nauman0x/urdish-support-qwen)"})
         try:
             return 200, json.loads(urllib.request.urlopen(req, timeout=30).read())
         except urllib.error.HTTPError as e:
