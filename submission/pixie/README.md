@@ -91,9 +91,29 @@ CUSTOMER:
 
 The model returns the reply plus a last line `TAG: {...}`; `split_output()` in `common.py` parses it.
 
-### On real WhatsApp (optional)
+### On real WhatsApp
 
-[whatsapp/bridge.py](https://github.com/Nauman0x/urdish-support-qwen/blob/main/whatsapp/bridge.py) connects a WhatsApp number to the local model through [WaSender](https://wasenderapi.com): incoming message → webhook → local llama-server → reply. The model still runs on your machine; only the WhatsApp transport goes through WaSender. The bridge checks the webhook secret, ignores its own and group messages, and queues replies to respect WaSender's free-trial limit (1 message per minute).
+[whatsapp/bridge.py](https://github.com/Nauman0x/urdish-support-qwen/blob/main/whatsapp/bridge.py) connects a shop's WhatsApp number to the local model through [WaSender](https://wasenderapi.com). The model still runs on the shop's own computer; only the WhatsApp transport goes through WaSender.
+
+```mermaid
+flowchart LR
+    C[Customer on WhatsApp] -->|message| W[WaSender]
+    W -->|webhook, HTTPS| T[cloudflared tunnel]
+    T --> B[bridge.py<br/>on the shop's PC]
+    B -->|POLICY + CUSTOMER| L[llama-server<br/>fine-tuned Qwen3, CPU]
+    L -->|reply + TAG| B
+    B -->|send-message API| W
+    W -->|reply| C
+    B -.->|TAG handoff = true| O[Owner's WhatsApp<br/>optional]
+```
+
+What the bridge does:
+
+- Acknowledges each webhook at once and does the work in the background.
+- Checks the webhook secret (`X-Webhook-Signature`) and rejects anything else.
+- Ignores the shop's own messages, group chats and duplicate deliveries.
+- Sends the reply text to the customer and uses the TAG for routing. With `--notify-owner`, chats the model hands off (`handoff: true`) are forwarded to the owner's number with the intent and order ID.
+- Queues replies to respect WaSender's free-trial limit of 1 message per minute; paid plans remove this limit. The model itself answers in a few seconds.
 
 1. Put `WASENDER_API_KEY` and `WASENDER_WEBHOOK_SECRET` in `.env` (see [.env.example](https://github.com/Nauman0x/urdish-support-qwen/blob/main/.env.example); `.env` is git-ignored).
 2. Start the fine-tuned model on port 8092 (for example with `demo/run_demo.sh`) and install [cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads/).
