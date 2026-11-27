@@ -21,8 +21,13 @@ from common import SYSTEM_PROMPT, split_output, user_content  # noqa: E402
 
 def load_cards():
     data = json.loads((ROOT / "data/businesses.json").read_text(encoding="utf-8"))
-    # Held-out businesses first: the model never saw them in training.
-    return [{**b, "split": s} for s in ("eval", "valid", "train") for b in data[s]]
+    # Fuller demo cards first (written for the demo, not used in training or evaluation),
+    # then held-out businesses (never seen in training), then the rest.
+    demo = [
+        {"id": p.stem.replace("_", "-"), "type": "fuller demo card", "card": p.read_text(encoding="utf-8").strip(), "split": "demo"}
+        for p in sorted((ROOT / "whatsapp/cards").glob("*.txt"))
+    ]
+    return demo + [{**b, "split": s} for s in ("eval", "valid", "train") for b in data[s]]
 
 
 class Handler(BaseHTTPRequestHandler):
