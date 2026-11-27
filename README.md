@@ -10,6 +10,8 @@ A small Qwen3 model that answers WhatsApp-style customer messages for **any smal
 
 It runs on a CPU. The recommended model is a 2.5 GB file that replies in about 3 to 5 seconds on an ordinary desktop CPU with no GPU.
 
+**We ran it live on real WhatsApp.** A customer messaged a shop's WhatsApp number, the message reached the model on our PC through a small bridge, and the reply was back on the customer's phone about 4 seconds later. [How it works and what happened](#on-real-whatsapp).
+
 Team Pixie · Qwen Local Hackathon 2026
 
 | | |
@@ -20,6 +22,7 @@ Team Pixie · Qwen Local Hackathon 2026
 | Base models | Qwen3-4B and Qwen3-1.7B (Apache-2.0), non-thinking mode |
 | Method | QLoRA with Unsloth, loss on the reply only |
 | Runtime | llama.cpp (GGUF), CPU only |
+| Live test | Real WhatsApp chat through [whatsapp/bridge.py](whatsapp/bridge.py) (WaSender webhook → local model → reply) |
 
 ## Why we built it
 
@@ -112,11 +115,20 @@ What the bridge does:
 - Sends the reply text to the customer and uses the TAG for routing. With `--notify-owner`, chats the model hands off (`handoff: true`) are forwarded to the owner's number with the intent and order ID.
 - Queues replies to respect WaSender's free-trial limit of 1 message per minute; paid plans remove this limit. The model itself answers in a few seconds.
 
-**Tested live on 27 Nov 2026** with the 4B Q4 model on CPU and the Shifa Pharmacy card. A customer asked "Panadol cf stock mein hai?" on WhatsApp, and the reply arrived 4 seconds later (model 2.8 s): *"Maazrat, hamari policy mein medicines ki stock ki maloomat nahi hai. Hamari team jald aap se rabta karegi."*, with `handoff: true`.
+**Live test on 27 Nov 2026.** We connected a spare WhatsApp number, ran the 4B Q4 model on the CPU and messaged it from another phone like a real customer.
+
+| Step | What happened | What we did |
+|---|---|---|
+| 1st message | The webhook arrived and the model answered in 2.9 s, but WaSender's API refused to send the reply (`403`, Cloudflare error 1010: it blocks Python's default user agent as a bot) | Sent a proper `User-Agent` header from the bridge |
+| "Panadol cf stock mein hai?" with the short test card | Reply on the customer's phone 4 s later: *"Maazrat, hamari policy mein medicines ki stock ki maloomat nahi hai. Hamari team jald aap se rabta karegi."* (`handoff: true`). This is correct, because the card has no stock information, but it's not very helpful to a customer | Wrote a fuller pharmacy card, the way a real shop would: common medicines with prices, same-day delivery, payment and return rules ([whatsapp/cards/shifa_pharmacy_full.txt](whatsapp/cards/shifa_pharmacy_full.txt)) |
+| Same kind of questions with the fuller card | *"Panadol CF Rs 60 per strip hai. Delivery Lahore mein 24 ghante mein hoti hai…"*; for a medicine not on the list (Augmentin) it asks for the name or a photo and says the team will confirm stock and price | Kept it as the WhatsApp demo card |
+| Several messages in a row | WaSender's free trial sends only 1 message per minute | The bridge queues replies; the model itself is not the bottleneck |
+
+The main lesson from the live run: **the bot is only as informative as the policy card.** With a thin card it correctly hands off; with a card written like a real shop's, it answers most questions itself and still hands off what isn't there.
 
 1. Put `WASENDER_API_KEY` and `WASENDER_WEBHOOK_SECRET` in `.env` (see [.env.example](.env.example); `.env` is git-ignored).
 2. Start the fine-tuned model on port 8092 (for example with `demo/run_demo.sh`) and install [cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads/).
-3. Run `bash whatsapp/run_whatsapp.sh --business shifa-pharmacy` (or `--card my_policy.txt` for your own business), then paste the printed `https://….trycloudflare.com/webhook` URL into the WaSender session's webhook settings.
+3. Run `bash whatsapp/run_whatsapp.sh --card whatsapp/cards/shifa_pharmacy_full.txt` (or `--card my_policy.txt` for your own business), then paste the printed `https://….trycloudflare.com/webhook` URL into the WaSender session's webhook settings.
 
 WaSender links a WhatsApp account the way WhatsApp Web does; it is not Meta's official API, so use a spare number. `whatsapp/test_bridge.sh` tests the bridge locally with fake webhooks and sends nothing.
 
@@ -183,6 +195,7 @@ More pairs, where the base model invents policy and ours hands off (rider card m
    v2 was chosen on validation (1.7B: 52.5% → 70.0%) and fixed the targeted problems on the test set. The 1.7B Q4 went down, and we report it as is.
 4. **Our first metric hid a real problem.** The automatic score looked fine for the 1.7B while its facts were often wrong. The blind fact check is what made us switch the recommended model to the 4B.
 5. **Quantization is nearly free for the 4B on CPU.** In our v1 runs Q4 scored as well as BF16 (60.0% vs 56.7%) at 2.6× the speed.
+6. **A live run teaches things a test set doesn't.** On real WhatsApp the first reply was blocked by the messaging API (fixed with one header), and a thin policy card made the bot hand off almost everything. A realistic card turned the same model into a useful assistant, so the card matters as much as the model ([details](#on-real-whatsapp)).
 
 **Still uncertain:** the fact grades come from Claude rather than human reviewers, the test set is small, and the data is synthetic, so real customer chats may be messier than ours.
 
