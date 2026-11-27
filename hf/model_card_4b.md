@@ -28,6 +28,7 @@ Team Pixie · Qwen Local Hackathon 2026
 
 | | |
 |---|---|
+| Demo video | [Watch on X](https://x.com/naumanarif_/status/2126375353950392468) |
 | Recommended model | [Nauman0x/Urdish-Support-Qwen3-4B](https://huggingface.co/Nauman0x/Urdish-Support-Qwen3-4B) (`urdish-v2-4b-q4_k_m.gguf`, 2.5 GB) |
 | Lighter model | [Nauman0x/Urdish-Support-Qwen3-1.7B](https://huggingface.co/Nauman0x/Urdish-Support-Qwen3-1.7B) (prefer `q8_0`, 1.8 GB, over `q4_k_m`; see results) |
 | Base models | Qwen3-4B and Qwen3-1.7B (Apache-2.0), non-thinking mode |

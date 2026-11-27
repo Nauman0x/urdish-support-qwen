@@ -21,7 +21,7 @@ model_link: https://huggingface.co/Nauman0x/Urdish-Support-Qwen3-4B
 quantization: GGUF Q4_K_M and Q8_0
 runtime: llama.cpp
 hardware_tested: 'Trained on RTX 5070 12 GB (2-4 min per run). Inference CPU only: Ryzen 7 7800X3D, 4 and 8 threads, no GPU'
-demo_video: ''
+demo_video: https://x.com/naumanarif_/status/2126375353950392468
 repo_link: https://github.com/Nauman0x/urdish-support-qwen
 before_after:
   prompt: 'POLICY:
